@@ -1,4 +1,5 @@
 import { Hero3DWebGL as Hero3D } from "@/components/hero-webgl"
+import { HeroErrorBoundary } from "@/components/hero-error-boundary"
 import { FeaturesSection } from "@/components/features-section"
 import { TechnologySection } from "@/components/technology-section"
 import { ApplicationsTimeline } from "@/components/applications-timeline"
@@ -15,7 +16,9 @@ export default function Index() {
     <div className="dark">
       <Navbar />
       <main>
-        <Hero3D />
+        <HeroErrorBoundary>
+          <Hero3D />
+        </HeroErrorBoundary>
         <FeaturesSection />
         <section id="technology">
           <TechnologySection />
