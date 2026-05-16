@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
-    content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
-  },
-  {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Алексей Морозов",
+    role: "Купил BYD Han, Москва",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Брал BYD Han EV. Всё оформили за меня — таможня, ПТС, постановка на учёт. Приехал просто забрать машину. Сэкономил около 800 тысяч по сравнению с дилером!",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Марина Соколова",
+    role: "Купила Chery Tiggo 8 Pro, Екатеринбург",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Сначала боялась покупать авто из Китая. Но менеджер всё объяснил, присылал фото на каждом этапе. Машина пришла в идеальном состоянии, всё как договаривались.",
+  },
+  {
+    name: "Дмитрий Захаров",
+    role: "Купил Li Auto L9, Краснодар",
+    avatar: "/professional-woman-scientist.png",
+    content:
+      "Уже третий раз заказываю здесь. Цены реально ниже рынка, никаких сюрпризов по итогу. Всегда на связи — это очень важно когда ждёшь машину.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют клиенты</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Сотни довольных владельцев китайских автомобилей по всей России
           </p>
         </div>
 

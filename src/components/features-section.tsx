@@ -3,40 +3,40 @@ import { Badge } from "@/components/ui/badge"
 
 const features = [
   {
-    title: "Адаптивная нейрообработка",
-    description: "Самооптимизирующиеся алгоритмы, которые обучаются на нейронных паттернах и улучшают интерпретацию сигналов.",
-    icon: "brain",
-    badge: "ИИ",
+    title: "Подбор автомобиля",
+    description: "Поможем выбрать идеальный автомобиль из Китая под ваш бюджет и задачи: от бюджетных до премиум-класса.",
+    icon: "car",
+    badge: "Подбор",
   },
   {
-    title: "Медицинская защита",
-    description: "Шифрование по стандартам FDA со сквозной защитой конфиденциальных нейронных данных.",
-    icon: "lock",
-    badge: "Сертификат",
+    title: "Честная цена",
+    description: "Работаем напрямую с поставщиками — без лишних посредников. Вы получаете максимально выгодную цену.",
+    icon: "money",
+    badge: "Выгода",
   },
   {
-    title: "Интуитивное управление",
-    description: "Естественная трансляция мыслей в действия с откликом менее миллисекунды и точностью 99,7%.",
+    title: "Доставка под ключ",
+    description: "Берём на себя всё: логистику, таможню, сертификацию и доставку прямо до вашего города.",
     icon: "globe",
-    badge: "Точность",
+    badge: "Под ключ",
   },
   {
-    title: "Предиктивная калибровка",
-    description: "ML-модели, которые предугадывают намерения пользователя и оптимизируют нейронные пути.",
+    title: "Быстрая доставка",
+    description: "Оптимальные маршруты и проверенная логистика — ваш автомобиль прибудет в срок без задержек.",
     icon: "zap",
-    badge: "Умный",
+    badge: "Быстро",
   },
   {
-    title: "Биометрическая интеграция",
-    description: "Бесшовная синхронизация с мониторингом жизненных показателей для контроля здоровья.",
-    icon: "link",
-    badge: "Связь",
+    title: "Таможня и документы",
+    description: "Полностью берём на себя оформление таможенной декларации, СБКТС, ПТС и постановку на учёт.",
+    icon: "doc",
+    badge: "Документы",
   },
   {
-    title: "Поддержка XR",
-    description: "Нативная совместимость с AR/VR-средами для терапевтических и рабочих приложений.",
-    icon: "target",
-    badge: "XR Ready",
+    title: "Всегда на связи",
+    description: "Персональный менеджер отвечает на ваши вопросы 24/7 и держит в курсе каждого этапа сделки.",
+    icon: "phone",
+    badge: "Поддержка",
   },
 ]
 
@@ -45,9 +45,9 @@ export function FeaturesSection() {
     <section className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Возможности нового поколения</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Почему выбирают нас</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Почувствуйте будущее с технологиями, которые переопределяют возможное
+            Полный цикл от выбора до получения ключей — без хлопот и переплат
           </p>
         </div>
 
@@ -61,12 +61,12 @@ export function FeaturesSection() {
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-3xl">
-                    {feature.icon === "brain" && "&#129504;"}
-                    {feature.icon === "lock" && "&#128274;"}
-                    {feature.icon === "globe" && "&#127760;"}
-                    {feature.icon === "zap" && "&#9889;"}
-                    {feature.icon === "link" && "&#128279;"}
-                    {feature.icon === "target" && "&#127919;"}
+                    {feature.icon === "car" && "🚗"}
+                    {feature.icon === "money" && "💰"}
+                    {feature.icon === "globe" && "🌏"}
+                    {feature.icon === "zap" && "⚡"}
+                    {feature.icon === "doc" && "📋"}
+                    {feature.icon === "phone" && "📞"}
                   </span>
                   <Badge variant="secondary" className="bg-accent text-accent-foreground">
                     {feature.badge}

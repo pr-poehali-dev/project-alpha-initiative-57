@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, Mail } from "lucide-react"
+import { Phone, MessageCircle, Mail, Car } from "lucide-react"
 
 export function Footer() {
   return (
@@ -8,53 +8,45 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <h2 className="font-orbitron text-2xl font-bold text-white mb-4">
-              Synapse<span className="text-red-500">AI</span>
+              Авто<span className="text-red-500">КНР</span>
             </h2>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
-              Продвигаем будущее нейросвязи с передовыми технологиями интерфейса мозг-компьютер.
+              Поставка автомобилей из Китая в Россию под ключ. Выгодные цены, полное оформление, надёжная доставка.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
-                <Twitter size={20} />
+                <Phone size={20} />
               </a>
               <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
-                <Github size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
-                <Linkedin size={20} />
+                <MessageCircle size={20} />
               </a>
               <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
                 <Mail size={20} />
               </a>
+              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
+                <Car size={20} />
+              </a>
             </div>
           </div>
 
-          {/* Product */}
+          {/* Услуги */}
           <div>
-            <h3 className="font-orbitron text-white font-semibold mb-4">Продукт</h3>
+            <h3 className="font-orbitron text-white font-semibold mb-4">Услуги</h3>
             <ul className="space-y-2">
-              <li>
-                <a
-                  href="#technology"
-                  className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
-                >
-                  Технологии
-                </a>
-              </li>
               <li>
                 <a
                   href="#applications"
                   className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
                 >
-                  Применения
+                  Как мы работаем
                 </a>
               </li>
               <li>
                 <a
-                  href="#safety"
+                  href="#features"
                   className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
                 >
-                  Безопасность
+                  Преимущества
                 </a>
               </li>
               <li>
@@ -62,34 +54,34 @@ export function Footer() {
                   href="#faq"
                   className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
                 >
-                  Вопросы
+                  Вопросы и ответы
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Company */}
+          {/* Контакты */}
           <div>
-            <h3 className="font-orbitron text-white font-semibold mb-4">Компания</h3>
+            <h3 className="font-orbitron text-white font-semibold mb-4">Контакты</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  О нас
+                  WhatsApp
                 </a>
               </li>
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Карьера
+                  Telegram
                 </a>
               </li>
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Пресса
+                  Позвонить нам
                 </a>
               </li>
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Контакты
+                  Написать на почту
                 </a>
               </li>
             </ul>
@@ -99,7 +91,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-red-500/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="font-space-mono text-gray-400 text-sm">2025 SynapseAI. Все права защищены.</p>
+            <p className="font-space-mono text-gray-400 text-sm">© 2025 АвтоКНР. Все права защищены.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a
                 href="#"
@@ -112,12 +104,6 @@ export function Footer() {
                 className="font-space-mono text-gray-400 hover:text-red-500 text-sm transition-colors duration-200"
               >
                 Условия использования
-              </a>
-              <a
-                href="#"
-                className="font-space-mono text-gray-400 hover:text-red-500 text-sm transition-colors duration-200"
-              >
-                Cookie-политика
               </a>
             </div>
           </div>
